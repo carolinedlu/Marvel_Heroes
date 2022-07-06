@@ -40,32 +40,7 @@ with st.container():
 
 
 
-from PIL import Image, ImageDraw
-from pandas import concat
-import requests
-import streamlit as st
-
-import numpy as np
-
-
-
-
-img =Image.open("Halk2.jpg")
-st.sidebar.image(img)
-
-
-
-
-
-#Removing Made with Streamlit, Hamburger Icon Menu & Streamlit Header
-hide_st_style = """
-                <style>
-                #MainMenu {visibility: hidden;}
-                footer {visibility: hidden;}
-                header {visibility: hidden;}
-                </style>
-                """
-st.markdown(hide_st_style, unsafe_allow_html=True)      
+    
 
 
 
