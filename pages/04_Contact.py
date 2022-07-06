@@ -44,16 +44,6 @@ with st.container():
 
 
 
-
-#Contact
-with st.container():
-    st.write("---")
-    st.header("Get In Touch With Me! :email:")
-    st.write("---")
-    st.write("##")
-
-
-
 contact_form = """
 <form action="https://formsubmit.co/ghazalehalba@gmail.com" method="POST">
      <input type="hidden"  name="_captcha" value="false">
