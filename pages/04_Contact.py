@@ -49,9 +49,6 @@ import numpy as np
 
 
 
-st.set_page_config(page_title="Marvel Heroes Face Recognition", page_icon=":sparkles:" , layout="wide")
-
-
 
 img =Image.open("Halk2.jpg")
 st.sidebar.image(img)
