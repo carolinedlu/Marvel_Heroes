@@ -5,4 +5,4 @@ pandas==1.4.2
 Pillow==9.2.0
 requests==2.27.1
 streamlit==1.10.0
-
+CMake==3.22.4
